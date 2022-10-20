@@ -1,0 +1,289 @@
+table {
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 40px;
+  border-spacing: 0;
+  border-radius: 5px;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+table caption {
+  font-size: 24px;
+  margin: 8px 0 12px;
+}
+table th {
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+table th, table td {
+  padding: 6px;
+  text-align: center;
+}
+table tr {
+  padding: 6px;
+}
+
+table#tab_footer {
+  margin-top: 20px;
+  padding: 10px;
+  margin-bottom: -9px;
+  text-align: center;
+  width: 100%;
+  background-color: #a37dc7;
+  color: #fff;
+  align-items: center;
+}
+table#tab_footer select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #a37dc7;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.isActive {
+  background-color: #fff !important;
+  color: #a37dc7 !important;
+  border: 1px solid #a37dc7 !important;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.pagNum {
+  background-color: #a37dc7;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #a37dc7;
+  font-size: 0.7em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 1px;
+}
+
+.datatable {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 300;
+  margin-top: 10px;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+.datatable thead tr {
+  color: #fff;
+  background-color: #a37dc7;
+}
+.datatable tbody tr {
+  margin-top: 30px;
+}
+.datatable tbody {
+  background: #a37dc7;
+  color: #fff;
+}
+.datatable tbody td {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#pageNavPosition {
+  margin-top: 15px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+#pageNavPosition button {
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  background-color: #a37dc7;
+  color: #fff;
+  border-radius: 50%;
+  border: 1px solid #a37dc7;
+  padding: 0px;
+  font-size: 10px;
+}
+
+#exportButton,
+#searching,
+#StyleOpenButton {
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 20px;
+  width: 25%;
+  border: 1px solid #a37dc7;
+  border-radius: 5px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #a37dc7;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#topBar {
+  text-align: center;
+}
+#topBar input[type=search]::-webkit-search-decoration,
+#topBar input[type=search]::-webkit-search-cancel-button,
+#topBar input[type=search]::-webkit-search-results-button,
+#topBar input[type=search]::-webkit-search-results-decoration {
+  display: none;
+}
+
+#recordData, #modelTable select {
+  border: 1px solid #fff;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 20px;
+  font-size: 15px;
+  color: #fff;
+  background-color: #a37dc7;
+  padding: 10px 0px 10px 5px;
+  margin-right: 10px;
+}
+
+::-moz-placeholder {
+  color: #fff;
+}
+
+::-moz-placeholder, ::placeholder, :-ms-input-placeholder {
+  color: #fff;
+}
+
+#nPage, #pPage {
+  color: #fff;
+  background-color: #a37dc7;
+  width: 25px;
+  font-size: -0.5em;
+  border-radius: 50%;
+  height: 25px;
+  border: 0px;
+  margin: 0px 10px;
+}
+
+#myModel {
+  font-family: "Courier New", Courier, monospace;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 55px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  transition: ease-in-out 3s;
+}
+
+#modelClose {
+  color: #fff;
+  top: 0;
+  float: right;
+  width: 100%;
+  font-size: 28px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+#modelContent {
+  background-color: #a37dc7;
+  margin: auto;
+  margin-top: -10px;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  box-shadow: 10px 10px 20px #a37dc7;
+}
+
+#sthLabel {
+  color: #fff;
+  text-transform: capitalize;
+  padding-right: 10px;
+}
+
+#modelTable {
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+}
+#modelTable label {
+  width: 100% !important;
+  padding: 12px;
+}
+
+#styleButton {
+  width: 90%;
+  background-color: #fff;
+  border: 1px solid #a37dc7;
+  color: #a37dc7;
+  font-size: 17px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+#sthFont {
+  background-color: #fff;
+  border: 1px solid #a37dc7;
+  color: #a37dc7;
+  padding: 5px;
+  height: 30px;
+  border-radius: 20px;
+}
+#sthFont option:hover {
+  box-shadow: 0 0 10px 100px red inset !important;
+}
+
+#mtablebtn {
+  box-shadow: none;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+  table caption {
+    font-size: 1em;
+  }
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  table tr {
+    display: block;
+    margin-bottom: 0.625em;
+  }
+  table td {
+    display: block;
+    font-size: 0.8em;
+    text-align: center;
+  }
+  table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  table td:last-child {
+    border-bottom: 0;
+  }
+
+  #modelContent {
+    margin-bottom: 100px !important;
+  }
+}/*# sourceMappingURL=style.css.map */
